@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title>Bogobob</title>
+	 <link rel="shortcut icon" href="pixilart-drawing (2).ico"/>
+	</head>
+    <body bgcolor="#0b225c">
+    <style>
+    h1 {
+    	color: red;
+        font-family: verdana;
+        font-size: 100%;
+        }
+    p {
+    	color: blue;
+        font-family: Trebuchet MS;
+        font-size: 100%;
+      }
+    </style>
+<div class="wrapper">
+            <form class="form1" action="menu.html">
+                <div class="formtitle">
+                    <h1>Enter the pin to proceed</h1>
+                </div>
+
+                <div class="input nobottomborder">
+                    <div class="inputtext">
+                       <p>Pin:</p>
+                    </div>
+
+                    <div class="inputcontent">
+                        <input type="password" id="password"><br/>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <br><input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
+                </div>
+        </div>
+	 <script>
+	if(document.getElementById('enter-key')
+	  )
+	</script>
+       <script>
+      function checkPassword(){
+       if(document.getElementById('password').value == '23riyfhvdiqu09djcni2bq0w9eud0qu'){
+        alert('Good job kid, password is right!');
+          location.href = "menu.html";
+         } else {
+         alert('password is wrong you dumb person');
+          return false;
+        }
+       }
+      </script>
+      <script>
+      disableEnterKey: function disableEnterKey(e){
+        var key;      
+        if(window.event)
+            key = window.event.keyCode; //IE
+        else
+            key = e.which; //firefox      
+
+        return (key != 13);
+    },
+      </script>
+      </form>
+      </body>
+      </html>
